@@ -10,5 +10,5 @@ phases:
       - echo Build completed successfully...
 artifacts:
   files:
-    - target/fashion-0.0.1-SNAPSHOT.jar
+    - target/fashion.jar
   discard-paths: yes
