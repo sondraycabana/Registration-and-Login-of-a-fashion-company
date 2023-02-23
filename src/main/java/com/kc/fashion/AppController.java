@@ -28,10 +28,17 @@ public class AppController {
         return new UserServiceImpl();
     }
 
-    @GetMapping("")
+    @GetMapping("/")
     public String viewHomePage(){
         return "index";
     }
+
+    @GetMapping("/ping")
+    public String viewLandingScreen(){
+        return "WOW!! THIS IS BEAUTIFUL";
+    }
+
+
 
     @GetMapping("/register")
     public String showSignUpForm(Model model){
